@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SearchField from "./shared/components/Home/SearchField";
 import Images from "./shared/assets/page";
+import { Detailpage } from "./shared/components/Home/Detailpage";
 
 export default function Home() {
   const {
@@ -64,6 +65,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <div>
+          <Detailpage />
+        </div>
       </div>
     </main>
   );
